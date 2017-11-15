@@ -1,0 +1,77 @@
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+/*body {
+  margin: 0;
+}*/
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  border: solid red 0.1rem;
+  padding-left: 1.5rem;
+  padding-right: 1rem;
+  align-self: center;
+  height: 3rem;
+}
+
+.logo img {
+  height: 100%;
+}
+
+.title #acad{
+  color: gray;
+}
+
+#desktopnav {
+  border: red solid 0.1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-grow: 1;
+  margin-left: 20rem;
+}
+
+/*Styles for the learn section*/
+
+.learn {
+  border: red solid 0.1rem;
+  display: flex;
+}
+
+.learn img{
+  width: 60%;
+  height: 60%;
+}
+
+.information {
+  display: flex;
+}
+
+.infocont1 img {
+  /*width: 93%;*/
+  height: 35%;
+}
+
+.infocont1 {
+  border: solid red 0.1rem;
+  width: 60%;
+}
+
+.info2 {
+  border: solid red 0.1rem;
+  flex-direction: row;
+  width: 40%;
+}
+
+.infocont2{
+  border: solid red 0.1rem;
+  display: flex;
+  flex-direction: row;
+}
