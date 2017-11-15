@@ -3,9 +3,9 @@ html {
   font-size: 16px;
 }
 
-/*body {
+body {
   margin: 0;
-}*/
+}
 
 header {
   display: flex;
@@ -74,4 +74,76 @@ header {
   border: solid red 0.1rem;
   display: flex;
   flex-direction: row;
+}
+
+/*Courses section*/
+
+.courses {
+  display: flex;
+  flex-direction: column;
+}
+
+.courses h1{
+  text-align: center;
+}
+
+.row1 {
+  display: flex;
+  border: red solid 0.1rem;
+  /*width: 100%*/
+  flex-direction: row;
+}
+
+.row2 {
+  display: flex;
+  border: red solid 0.1rem;
+  /*width: 100%*/
+  flex-direction: row;
+}
+
+/*Thesis section*/
+
+#thesishd {
+  text-align: center;
+}
+
+.thesis {
+    display: flex;
+    flex-direction: row;
+}
+
+.vidcol video{
+  border: red solid 0.1rem;
+  box-sizing: content-box;
+  width: 60%;
+  flex-direction: column;
+}
+
+.thesiscol {
+  display: flex;
+  flex-direction: column;
+}
+
+/*Footer styling*/
+
+footer {
+  border: red solid 0.1rem;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  height: 3rem;
+  align-items: center;
+}
+
+.copyright {
+  margin-left: 1.5rem;
+}
+
+#terms {
+  margin-left: 48rem;
+  border: red solid 0.1rem;
+}
+
+.legal {
+  margin-left: 2rem;
 }
