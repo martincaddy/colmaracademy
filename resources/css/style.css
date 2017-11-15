@@ -46,17 +46,19 @@ header {
 }
 
 .learn img{
-  width: 60%;
-  height: 60%;
+  width: 56.5%;
+  height: 55%;
+  padding: 2rem 1.5rem;
 }
 
 .information {
   display: flex;
+  padding-top: 2rem;
 }
 
 .infocont1 img {
-  /*width: 93%;*/
-  height: 35%;
+  height: 50%;
+  padding-left: 1.5rem;
 }
 
 .infocont1 {
@@ -74,6 +76,16 @@ header {
   border: solid red 0.1rem;
   display: flex;
   flex-direction: row;
+  padding: 1rem;
+}
+
+.infocont2 img {
+  width: 35%;
+  height: 25%;
+}
+
+.infocont2 h3, p, a{
+  padding-left: 1rem;
 }
 
 /*Courses section*/
@@ -87,18 +99,70 @@ header {
   text-align: center;
 }
 
+.courses img {
+  width: 90%;
+  height: auto;
+}
+
+.courses p {
+  width: 70%;
+  display: flex;
+}
+
 .row1 {
   display: flex;
   border: red solid 0.1rem;
-  /*width: 100%*/
   flex-direction: row;
+  padding-left: 4.5rem;
+  /*padding-right: 2.5rem;*/
+  /*justify-content: center;*/
 }
+
+#compart, #business {
+  padding-left: 2.5rem;
+}
+
+/*#business {
+  padding-left: 2.5rem;
+}*/
 
 .row2 {
   display: flex;
   border: red solid 0.1rem;
-  /*width: 100%*/
   flex-direction: row;
+  padding-left: 4.5rem;
+  /*padding-right: 2.5rem;*/
+}
+
+#softeng img{
+  height: 55%;
+}
+
+#design img {
+  height: 55%;
+}
+
+#data img {
+  height: 55%;
+}
+
+#marketing img {
+  height: 55%;
+}
+
+#compart img {
+  width: 80%;
+  height: 55%;
+}
+
+#business img {
+  width: 80%;
+  height: 55%;
+}
+
+#compart #business{
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 /*Thesis section*/
@@ -112,16 +176,47 @@ header {
     flex-direction: row;
 }
 
+.vidcol {
+  border: red solid 0.1rem;
+  width: 60%;
+  /*background-color: green;*/
+}
+
 .vidcol video{
   border: red solid 0.1rem;
   box-sizing: content-box;
-  width: 60%;
+  width: 90%;
   flex-direction: column;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+
+}
+
+.vidcol p {
+  width: 60%;
 }
 
 .thesiscol {
   display: flex;
   flex-direction: column;
+}
+
+
+.fisma {
+  display: flex;
+  flex-direction: row;
+}
+
+.fismatxt {
+  display: flex;
+  flex-direction: column;
+}
+
+
+#now {
+  display: flex;
+  flex-direction: row;
 }
 
 /*Footer styling*/
