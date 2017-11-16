@@ -45,6 +45,16 @@ header {
   display: flex;
 }
 
+.learntxt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button {
+  text-align: center;
+}
+
 .learn img{
   width: 56.5%;
   height: 55%;
@@ -66,6 +76,10 @@ header {
   width: 60%;
 }
 
+#textcont1 {
+  padding: 0 1.5rem;
+}
+
 .info2 {
   border: solid red 0.1rem;
   flex-direction: row;
@@ -84,7 +98,15 @@ header {
   height: 25%;
 }
 
-.infocont2 h3, p, a{
+.infotextcont2 h3 {
+  padding-left: 1rem;
+}
+
+.infotextcont2 p {
+  padding-left: 1rem;
+}
+
+.infotextcont2 a{
   padding-left: 1rem;
 }
 
@@ -114,24 +136,17 @@ header {
   border: red solid 0.1rem;
   flex-direction: row;
   padding-left: 4.5rem;
-  /*padding-right: 2.5rem;*/
-  /*justify-content: center;*/
 }
 
 #compart, #business {
   padding-left: 2.5rem;
 }
 
-/*#business {
-  padding-left: 2.5rem;
-}*/
-
 .row2 {
   display: flex;
   border: red solid 0.1rem;
   flex-direction: row;
   padding-left: 4.5rem;
-  /*padding-right: 2.5rem;*/
 }
 
 #softeng img{
@@ -179,7 +194,6 @@ header {
 .vidcol {
   border: red solid 0.1rem;
   width: 60%;
-  /*background-color: green;*/
 }
 
 .vidcol video{
@@ -190,11 +204,15 @@ header {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   padding-bottom: 1.5rem;
-
 }
 
 .vidcol p {
   width: 60%;
+  padding-left: 1rem;
+}
+
+.vidcol h2 {
+  padding-left: 1rem;
 }
 
 .thesiscol {
@@ -208,11 +226,16 @@ header {
   flex-direction: row;
 }
 
+.fisma img{
+  height: 35%;
+  width: 35%;
+  padding: 1rem;
+}
+
 .fismatxt {
   display: flex;
   flex-direction: column;
 }
-
 
 #now {
   display: flex;
