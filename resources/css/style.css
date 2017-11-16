@@ -173,30 +173,27 @@ header {
   padding-left: 4.5rem;
 }
 
-#softeng img{
+#im1, #im3, #im4, #im6{
   height: 55%;
 }
 
-#design img {
-  height: 55%;
-}
-
-#data img {
-  height: 55%;
-}
-
-#marketing img {
-  height: 55%;
-}
-
-#compart img {
+#im2, #im5 {
   width: 80%;
   height: 55%;
 }
 
-#business img {
-  width: 80%;
-  height: 55%;
+@media only screen and (max-width: 470px) {
+  #im1, #im2, #im3, #im4, #im5, #im6 {
+    display: none;
+  }
+
+  .row1 p {
+    display: none;
+  }
+
+  .row2 p {
+    display: none;
+  }
 }
 
 #compart #business{
@@ -231,12 +228,18 @@ header {
 }
 
 .vidcol p {
-  width: 60%;
-  padding-left: 1rem;
+  width: 95%;
+  padding-left: 1.5rem;
 }
 
 .vidcol h2 {
-  padding-left: 1rem;
+  padding-left: 1.5rem;
+}
+
+@media only screen and (max-width: 470px){
+  .vidcol p, h2 {
+    display: none;
+  }
 }
 
 .thesiscol {
@@ -244,6 +247,11 @@ header {
   flex-direction: column;
 }
 
+@media only screen and (max-width: 470px){
+  .thesiscol {
+    display: none;
+  }
+}
 
 .fisma {
   display: flex;
