@@ -67,7 +67,7 @@ header {
 .learn {
   border: red solid 0.1rem;
   display: flex;
-  background-color: lightblue;
+  background-color: #ead3e5;
   padding-top: 6rem;
   /*flex-direction: row;*/
 }
@@ -92,10 +92,14 @@ header {
 @media only screen and (max-width: 470px) {
   .learn {
     display: inline-block;
+    padding-top: 0rem;
   }
   #study {
     width: 100%;
     padding-left: 0rem;
+  }
+  .learn img {
+    padding: 0rem;
   }
 }
 
@@ -144,7 +148,7 @@ header {
 }
 
 #guestspeaker {
-  background-color: lightblue;
+  background-color: #ead3e5;
 }
 
 @media only screen and (max-width: 470px) {
@@ -197,7 +201,7 @@ header {
 
 /*STYLING FOR INDIVIDUAL DIVS AND IMAGES IN THE COURSES SECTION*/
 .courses {
-  background-color: lightblue;
+  background-color: #ead3e5;
 }
 
 .courses h1 {
@@ -276,7 +280,7 @@ header {
     margin-left: 0.5rem;
     width: 95%;
     margin-bottom: 0.5rem;
-    background-color: lightblue;
+    background-color: #ead3e5;
   }
 
   .row1 {
@@ -378,7 +382,7 @@ header {
 }
 
 #fismadesign {
-  background-color: lightblue;
+  background-color: #ead3e5;
 }
 
 #now {
