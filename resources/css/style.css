@@ -422,4 +422,7 @@ footer {
   .legal {
     display: none;
   }
+  .favicons {
+    display: none;
+  }
 }
