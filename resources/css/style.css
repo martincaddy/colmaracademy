@@ -399,8 +399,16 @@ footer {
 }
 
 #terms {
-  margin-left: 45rem;
+  margin-left: 3rem;
   border: red solid 0.1rem;
+}
+
+.favicons {
+  margin-left: 35rem;
+}
+
+.favicons i {
+  padding-left: 1rem;
 }
 
 .legal {
