@@ -28,7 +28,7 @@ body {
   }
 }
 
-.head {
+header {
   display: flex;
   flex-direction: row;
   /*position: fixed;*/
@@ -283,18 +283,6 @@ body {
 
   .row2 p {
     display: none;
-  }
-
-  #business, #compart{
-    padding-left: 0rem;
-  }
-
-  .courses h3 {
-    /*width: 100%;*/
-    margin-left: 0rem;
-    margin-right: 0rem;
-    padding-left: 0rem;
-    padding-right: 0rem;
   }
 }
 
