@@ -192,76 +192,60 @@ header {
 
 /*Courses section*/
 
+/*STYLING FOR INDIVIDUAL DIVS AND IMAGES IN THE COURSES SECTION*/
 .courses {
-  display: flex;
-  flex-direction: column;
+  background-color: lightblue;
 }
 
 .courses h1 {
   text-align: center;
   padding-top: 2rem;
-  padding-bottom: 2rem;
-  background-color: lightblue;
   margin-top: 0rem;
-  margin-bottom: 0rem;
-}
-
-.courses img {
-  max-width: 100%;
-  height: auto;
-}
-
-.courses p {
-  width: 70%;
-  display: flex;
 }
 
 .row1, .row2 {
   display: flex;
-  border: red solid 0.1rem;
   flex-direction: row;
-  padding-bottom: 2rem;
+  border: blue solid 0.1rem;
+  overflow: hidden;
+}
+
+.row1 {
+  padding-bottom: 1rem;
 }
 
 .row2 {
   padding-top: 1rem;
-  background-color: lightblue;
+  padding-bottom: 2rem;
 }
 
-.row1 {
-  background-color: lightblue;
-}
-
-/*STYLING FOR INDIVIDUAL DIVS AND IMAGES IN THE COURSES SECTION*/
-
-#softeng, #compart, #design, #data, #business, #marketing {
+.coursecontainer {
+  border: red solid 0.1rem;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
   background-color: white;
 }
 
-#compart, #business {
-  margin-left: 1rem;
-  margin-right: 1rem;
-  border: red solid 0.1rem;
+.courseimagecontainer img {
+  width: 100%;
 }
 
+.left {
+  margin-left: 4.5rem;
+}
 
-#softeng, #data {
+.centre {
   margin-left: 2rem;
-  margin-right: 1rem;
-}
-
-#design, #marketing {
-  margin-left: 1rem;
   margin-right: 2rem;
 }
 
-#im1, #im3, #im4, #im6{
-  height: 55%;
+.right {
+  margin-right: 4.5rem;
 }
 
-#im2, #im5 {
-  max-width: 100%;
-  height: 55%;
+.coursetitle, .coursecontent {
+  padding-left: 1rem;
 }
 
 /*MEDIA QUERIES FOR COURSES SECTION*/
@@ -269,21 +253,43 @@ header {
 @media only screen and (max-width: 470px) {
   .row1, .row2{
     flex-direction: column;
-    padding-left: 0;
+    padding: 0;
     text-align: center;
   }
 
-  #im1, #im2, #im3, #im4, #im5, #im6 {
+  .coursecontainer img {
     display: none;
   }
 
-  .row1 p {
+  .row1 p, h5{
     display: none;
   }
 
-  .row2 p {
+  .row2 p, h5{
     display: none;
   }
+
+  .coursecontainer {
+    margin-left: 0.5rem;
+    width: 95%;
+    margin-bottom: 0.5rem;
+    background-color: lightblue;
+  }
+
+  .row1 {
+    padding-top: 1rem;
+    background-color: white;
+  }
+
+  .row2 {
+    padding-bottom: 1rem;
+    background-color: white;
+  }
+
+  .coursetitle {
+    text-align: left;
+  }
+
 }
 
 
