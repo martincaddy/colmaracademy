@@ -33,6 +33,7 @@ header {
   flex-direction: row;
   position: fixed;
   background-color: white;
+  border-bottom: solid black 0.1rem;
 }
 
 .logo {
@@ -67,7 +68,7 @@ header {
 .learn {
   border: red solid 0.1rem;
   display: flex;
-  background-color: #efeee1;
+  background-color: #e6fff1;
   padding-top: 6rem;
   /*flex-direction: row;*/
 }
@@ -148,7 +149,7 @@ header {
 }
 
 #guestspeaker {
-  background-color: #efeee1;
+  background-color: #e6fff1;
 }
 
 @media only screen and (max-width: 470px) {
@@ -180,6 +181,10 @@ header {
   padding-left: 1rem;
 }
 
+#specialguest {
+  display: none;
+}
+
 #guest, #campus, #orientation {
   display: none;
 }
@@ -195,13 +200,21 @@ header {
     display: block;
     width: 100%;
   }
+
+  #ourguest {
+    display: none;
+  }
+
+  #specialguest {
+    display: block;
+  }
 }
 
 /*Courses section*/
 
 /*STYLING FOR INDIVIDUAL DIVS AND IMAGES IN THE COURSES SECTION*/
 .courses {
-  background-color: #efeee1;
+  background-color: #e6fff1;
 }
 
 .courses h1 {
@@ -280,7 +293,7 @@ header {
     margin-left: 0.5rem;
     width: 95%;
     margin-bottom: 0.5rem;
-    background-color: #efeee1;
+    background-color: #e6fff1;
   }
 
   .row1 {
@@ -382,7 +395,7 @@ header {
 }
 
 #fismadesign {
-  background-color: #efeee1;
+  background-color: #e6fff1;
 }
 
 #now {
@@ -410,11 +423,11 @@ footer {
   border: red solid 0.1rem;
 }
 
-.favicons {
+.fontawesome {
   margin-left: 35rem;
 }
 
-.favicons i {
+.fontawesome i {
   padding-left: 1rem;
 }
 
@@ -429,7 +442,7 @@ footer {
   .legal {
     display: none;
   }
-  .favicons {
+  .fontawesome {
     display: none;
   }
 }
