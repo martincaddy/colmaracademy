@@ -527,20 +527,25 @@ footer {
   flex-direction: row;
   height: 3rem;
   align-items: center;
+  justify-content: space-between;
 }
 
-#terms {
-  margin-left: 2rem;
-  padding-right: 2rem;
+.legal {
+  width: 10rem;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1rem;
 }
 
 .fontawesome {
-  margin-left: 35rem;
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  padding-right: 1rem;
 }
 
-.fontawesome i {
-  /*padding-left: 1rem;*/
-  padding-right: 1rem;
+.fontawesome a {
+  padding-left: 1rem;
 }
 
 .copyright {
