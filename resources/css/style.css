@@ -32,7 +32,7 @@ header {
   display: flex;
   flex-direction: row;
   position: fixed;
-  background-color: white;
+  background-color: #ffffff;
   border-bottom: solid black 0.1rem;
   /*width: 100%;*/
 }
@@ -68,7 +68,6 @@ header {
 
 #desktopnav a {
   display: flex;
-  /*border: solid black 0.1rem;*/
   width: 9rem;
   height: 2rem;
   margin-right: 1rem;
@@ -81,18 +80,19 @@ header {
   border-radius: 5px;
 }
 
+#desktopnav a:hover {
+  background-color: #00803c;
+}
+
 /*Styles for the learn section*/
 
 .learn {
-  /*border: red solid 0.1rem;*/
   display: flex;
   background-color: #e6fff1;
   padding-top: 6rem;
-  /*flex-direction: row;*/
 }
 
 .learntxt {
-  /*border: red solid 0.1rem;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -113,13 +113,22 @@ header {
   border-radius: 5px;
 }
 
+.button:hover {
+  background-color: #00803c;
+}
+
 .button a {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
   font-weight: 700;
 }
 
-
+@media only screen and (max-width: 470px) {
+  .button {
+    margin-left: 8rem;
+    margin-bottom: 2rem;
+  }
+}
 
 .learn img{
   width: 56.5%;
@@ -193,6 +202,10 @@ header {
   color: #ffffff;
   font-weight: 700;
   text-decoration: none;
+}
+
+.info2 a:hover {
+  background-color: #00803c;
 }
 
 .infocont2{
@@ -282,6 +295,11 @@ header {
   color: #000000;
 }
 
+.courses a:hover {
+  color: #00803c
+  /*transform: scale(1.5, 1.5);*/
+}
+
 .row1, .row2 {
   display: flex;
   flex-direction: row;
@@ -303,7 +321,7 @@ header {
   display: flex;
   flex-direction: column;
   width: 50%;
-  background-color: white;
+  background-color: #ffffff;
 }
 
 .courseimagecontainer img {
@@ -362,7 +380,7 @@ header {
 
   .row2 {
     padding-bottom: 1rem;
-    background-color: white;
+    background-color: #ffffff;
   }
 
   .coursetitle {
@@ -370,7 +388,7 @@ header {
   }
 
   .courses h1 {
-    background-color: white;
+    background-color: #ffffff;
     margin-bottom: 0rem;
     padding-bottom: 1rem;
   }
@@ -458,6 +476,10 @@ header {
   color: #000000;
 }
 
+.fismatxt a:hover {
+  color: #00803c;
+}
+
 #fismadesign {
   background-color: #e6fff1;
 }
@@ -470,7 +492,6 @@ header {
 /*Footer styling*/
 
 footer {
-  border: red solid 0.1rem;
   display: flex;
   flex-grow: 1;
   flex-direction: row;
@@ -478,25 +499,13 @@ footer {
   align-items: center;
 }
 
-.copyright {
-  margin-left: 1.5rem;
-}
-
 #terms {
-  margin-left: 3rem;
-  border: red solid 0.1rem;
+  margin-left: 2rem;
+  padding-right: 2rem;
 }
 
 .fontawesome {
   margin-left: 35rem;
-}
-
-.fontawesome i {
-  padding-left: 1rem;
-}
-
-.legal {
-  margin-left: 2rem;
 }
 
 @media only screen and (max-width: 470px) {
