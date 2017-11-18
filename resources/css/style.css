@@ -533,7 +533,7 @@ footer {
 .legal {
   width: 10rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-right: 1rem;
 }
 
