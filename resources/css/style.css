@@ -9,12 +9,6 @@ body {
 
 /*HEADER AND NAVIGATION*/
 
-@media only screen and (max-width: 470px) {
-  .head {
-    display: none;
-  }
-}
-
 .mobilenav {
   display: none;
 }
@@ -26,6 +20,18 @@ body {
     justify-content: space-around;
     height: 4rem;
   }
+  .logo {
+    display: none;
+  }
+  .title {
+    display: none;
+  }
+  .desknav {
+    display: none;
+  }
+  .desktopnav a{
+    display: none;
+  }
 }
 
 header {
@@ -34,14 +40,12 @@ header {
   position: fixed;
   background-color: #ffffff;
   border-bottom: solid #000000 0.1rem;
-  max-width: 100%;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .logo {
   padding-left: 1.5rem;
-  padding-right: 1rem;
-  align-self: center;
-  height: 3rem;
 }
 
 .logo img {
@@ -52,21 +56,16 @@ header {
   color: gray;
 }
 
-#desktopnav {
-  /*border: red solid 0.1rem;*/
+.desknav {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   align-items: center;
-  /*flex-grow: 1;*/
-  margin-left: 17.5rem;
-  margin-right: 1rem;
-  width: 36rem;
+  justify-content: flex-end;
+  border: red solid 1px;
 }
 
 /*STYLES FOR THE LINKS ON THE DESKTOP NAV*/
 
-#desktopnav a {
+.desknav a {
   display: flex;
   width: 9rem;
   height: 2rem;
@@ -81,7 +80,7 @@ header {
   transition: 0.3s ease;
 }
 
-#desktopnav a:hover {
+.desknav a:hover {
   background-color: #00803c;
   transform: scale(1.2, 1.2);
 }
