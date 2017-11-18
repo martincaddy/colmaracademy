@@ -33,12 +33,11 @@ header {
   flex-direction: row;
   position: fixed;
   background-color: #ffffff;
-  border-bottom: solid black 0.1rem;
-  /*width: 100%;*/
+  border-bottom: solid #000000 0.1rem;
+  max-width: 100%;
 }
 
 .logo {
-  /*border: solid red 0.1rem;*/
   padding-left: 1.5rem;
   padding-right: 1rem;
   align-self: center;
@@ -60,7 +59,8 @@ header {
   justify-content: space-around;
   align-items: center;
   /*flex-grow: 1;*/
-  margin-left: 11.5rem;
+  margin-left: 17.5rem;
+  margin-right: 1rem;
   width: 36rem;
 }
 
@@ -78,10 +78,12 @@ header {
   background-color: #4dffa0;
   color: white;
   border-radius: 5px;
+  transition: 0.3s ease;
 }
 
 #desktopnav a:hover {
   background-color: #00803c;
+  transform: scale(1.2, 1.2);
 }
 
 /*Styles for the learn section*/
@@ -111,10 +113,12 @@ header {
   align-items: center;
   background-color: #4dffa0;
   border-radius: 5px;
+  transition: 0.3s ease;
 }
 
 .button:hover {
   background-color: #00803c;
+  transform: scale(1.2, 1.2);
 }
 
 .button a {
@@ -186,7 +190,6 @@ header {
 }
 
 .info2 {
-  /*border: solid red 0.1rem;*/
   flex-direction: row;
   width: 40%;
 }
@@ -202,14 +205,15 @@ header {
   color: #ffffff;
   font-weight: 700;
   text-decoration: none;
+  transition: 0.3s ease;
 }
 
 .info2 a:hover {
   background-color: #00803c;
+  transform: scale(1.2, 1.2);
 }
 
 .infocont2{
-  /*border: solid red 0.1rem;*/
   display: flex;
   flex-direction: row;
   padding: 1rem;
@@ -295,15 +299,25 @@ header {
   color: #000000;
 }
 
+.coursetitle {
+  transition: 0.3s ease;
+}
+
 .courses a:hover {
   color: #00803c
-  /*transform: scale(1.5, 1.5);*/
+}
+
+.coursetitle:hover {
+  transform: scale(1.2, 1.2);
+  opacity: 0.75;
+  background-color: #ffffff;
+  border: solid #000000 0.1rem;
+  border-radius: 360px;
 }
 
 .row1, .row2 {
   display: flex;
   flex-direction: row;
-  /*border: blue solid 0.1rem;*/
   overflow: hidden;
 }
 
@@ -317,7 +331,6 @@ header {
 }
 
 .coursecontainer {
-  /*border: red solid 0.1rem;*/
   display: flex;
   flex-direction: column;
   width: 50%;
@@ -385,6 +398,7 @@ header {
 
   .coursetitle {
     text-align: left;
+    margin-left: 1rem;
   }
 
   .courses h1 {
@@ -393,10 +407,13 @@ header {
     padding-bottom: 1rem;
   }
 
+  .coursetitle:hover {
+    width: 80%;
+    text-align: center;
+  }
 }
 
-
-/*Thesis section*/
+/*THESIS SECTION*/
 
 #thesishd {
   text-align: center;
@@ -412,19 +429,18 @@ header {
 }
 
 .vidcol {
-  /*border: red solid 0.1rem;*/
   width: 60%;
 }
 
 .vidcol video{
-  /*border: red solid 0.1rem;*/
   width: 90%;
   padding-left: 1.5rem;
 }
 
 .vidcol p {
-  width: 95%;
+  width: 90%;
   padding-left: 1.5rem;
+  text-align: justify;
 }
 
 .vidcol h2 {
@@ -480,6 +496,20 @@ header {
   color: #00803c;
 }
 
+.thesisheading {
+  transition: 0.3s ease;
+}
+
+.thesisheading:hover {
+    transform: scale(1.2, 1.2);
+    opacity: 0.75;
+    border-radius: 360px;
+    border: solid #000000 0.1rem;
+    text-align: center;
+    background-color: #ffffff;
+    width: 90%;
+}
+
 #fismadesign {
   background-color: #e6fff1;
 }
@@ -505,11 +535,16 @@ footer {
 }
 
 .fontawesome {
-  margin-left: 31rem;
+  margin-left: 35rem;
 }
 
 .fontawesome i {
-  padding-left: 1rem;
+  /*padding-left: 1rem;*/
+  padding-right: 1rem;
+}
+
+.copyright {
+  padding-left: 1.5rem;
 }
 
 @media only screen and (max-width: 470px) {
