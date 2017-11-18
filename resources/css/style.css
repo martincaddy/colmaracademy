@@ -505,7 +505,11 @@ footer {
 }
 
 .fontawesome {
-  margin-left: 35rem;
+  margin-left: 31rem;
+}
+
+.fontawesome i {
+  padding-left: 1rem;
 }
 
 @media only screen and (max-width: 470px) {
