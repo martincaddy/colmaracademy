@@ -34,10 +34,11 @@ header {
   position: fixed;
   background-color: white;
   border-bottom: solid black 0.1rem;
+  width: 100%;
 }
 
 .logo {
-  border: solid red 0.1rem;
+  /*border: solid red 0.1rem;*/
   padding-left: 1.5rem;
   padding-right: 1rem;
   align-self: center;
@@ -53,14 +54,31 @@ header {
 }
 
 #desktopnav {
-  border: red solid 0.1rem;
+  /*border: red solid 0.1rem;*/
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   /*flex-grow: 1;*/
-  margin-left: 23.5rem;
-  width: 30rem;
+  margin-left: 17.5rem;
+  width: 36rem;
+}
+
+/*STYLES FOR THE LINKS ON THE DESKTOP NAV*/
+
+#desktopnav a{
+  display: flex;
+  /*border: solid black 0.1rem;*/
+  width: 9rem;
+  height: 2rem;
+  margin-right: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 700;
+  background-color: #4dffa0;
+  color: white;
+  border-radius: 5px;
 }
 
 /*Styles for the learn section*/
