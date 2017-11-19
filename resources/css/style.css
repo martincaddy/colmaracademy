@@ -34,7 +34,7 @@ header {
   position: fixed;
   background-color: #ffffff;
   border-bottom: solid #000000 0.1rem;
-  max-width: 100%;
+  width: 100%;
 }
 
 .logo {
@@ -59,7 +59,7 @@ header {
   justify-content: space-around;
   align-items: center;
   /*flex-grow: 1;*/
-  margin-left: 11rem;
+  margin-left: 17rem;
   margin-right: 1rem;
   width: 36rem;
 }
@@ -335,10 +335,12 @@ header {
   flex-direction: column;
   width: 50%;
   background-color: #ffffff;
+  border-radius: 5px;
 }
 
 .courseimagecontainer img {
   width: 100%;
+  border-radius: 5px;
 }
 
 .left {
@@ -409,7 +411,6 @@ header {
 
   .coursetitle:hover {
     width: 100%;
-    /*text-align: center;*/
     border: #ffffff;
     border-radius: 0px;
   }
@@ -539,6 +540,16 @@ footer {
   padding-right: 1rem;
 }
 
+.legal a {
+  transition: 0.3s ease;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.legal a:hover {
+  color: #0099ff;
+}
+
 .fontawesome {
   display: flex;
   justify-content: flex-end;
@@ -548,6 +559,11 @@ footer {
 
 .fontawesome a {
   padding-left: 1rem;
+  transition: 0.3s ease;
+}
+
+.fontawesome a:hover {
+  color: #0099ff;
 }
 
 .copyright {
