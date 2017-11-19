@@ -408,8 +408,10 @@ header {
   }
 
   .coursetitle:hover {
-    width: 80%;
-    text-align: center;
+    width: 100%;
+    /*text-align: center;*/
+    border: #ffffff;
+    border-radius: 0px;
   }
 }
 
