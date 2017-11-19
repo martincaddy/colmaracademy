@@ -58,8 +58,9 @@ header {
 
 .desknav {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  flex-direction: row;
+  /*align-content: center;*/
+  /*justify-content: flex-end;*/
   border: red solid 1px;
 }
 
