@@ -13,28 +13,30 @@
 
 <!-- Setting up the header and nav -->
 
-  <div class="head">
+
     <header>
-      <div class="logo">
-        <img src="./resources/images/ic-logo.svg" alt="Colmar logo">
-      </div>
+      <div class="head" role="presentation">
+        <div class="logo">
+          <img src="./resources/images/ic-logo.svg" alt="Colmar logo">
+        </div>
 
-      <div class="title">
-        <h1>COLMAR<span id="acad">ACADEMY</span></h1>
-      </div>
+        <div class="title">
+          <h1>COLMAR<span id="acad">ACADEMY</span></h1>
+        </div>
 
-        <nav id="desktopnav">
+        <nav id="desktopnav" role="presentation">
           <a href="#campus">On campus</a>
           <a href="#online">Online</a>
           <a href="#company">For companies</a>
           <a href="#sign">Sign in</a>
         </nav>
+      </div>
     </header>
-  </div>
+
 
 <!-- Mobile navigation bar for mobile responsive version of site -->
 
-  <div class="mobilenav">
+  <div class="mobilenav" role="presentation">
     <img src="./resources/images/ic-logo.svg" alt="Colmar logo">
     <img src="./resources/images/ic-on-campus.svg" alt="On campus logo">
     <img src="./resources/images/ic-online.svg" alt="Online logo">
@@ -46,7 +48,7 @@
 
 <div class="learn">
     <img id="study" src="./resources/images/banner.jpg" alt="Group of people studying on an outside table">
-  <div class="learntxt">
+  <div class="learntxt" role="presentation">
     <h1>Learn something new everyday</h1>
     <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
     <div class="button">
@@ -56,11 +58,11 @@
 </div>
 
 <div class="information">
-  <div class="infocont1">
+  <div class="infocont1" role="presentation">
       <img id="reading" src="./resources/images/information-main.jpg" alt="A man sitting reading">
     <div id="textcont1">
       <h2>It doesn't hurt to keep practicing.</h2>
-      <p>"Curabitur vitae libero in ipsum porttitor consequat.  Aliquam et commodo lectus,
+      <p role="complementary">"Curabitur vitae libero in ipsum porttitor consequat.  Aliquam et commodo lectus,
         nec consequat neque.  Sed non accumsan urna.  Phasellus sed consequat ex. Etiameget
         magna laoreet, efficitur dolor consequat, tristique ligula."</p>
         <p id="quote"><em>Emanuel, Sr. Strategist at Hiring.command</em></p>
@@ -69,34 +71,34 @@
 
 <!-- right hand side of the information section -->
 
-    <div class="info2">
-      <div class="infocont2">
+    <div class="info2" role="presentation">
+      <div class="infocont2" role="presentation">
         <img src="./resources/images/information-orientation.jpg" alt="Shadows of people walking in a park">
         <img id="orientation" src="./resources/images/information-orientation-mobile.jpg" alt="Shadows of people walking in a park">
       <div class="infotextcont2">
         <h3>Orientation date</h3>
-        <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+        <p role="complementary">Tue 10/11 & Wed 10/12: 8am-3pm</p>
         <a href="#">Read more</a>
       </div>
     </div>
 
-      <div class="infocont2">
+      <div class="infocont2" role="presentation">
         <img src="./resources/images/information-campus.jpg" alt="Classroom featuring a map of South America on the wall">
         <img id="campus" src="./resources/images/information-campus-mobile.jpg" alt="Classroom featuring a map of South America on the wall">
       <div class="infotextcont2">
         <h3>Our campus</h3>
-        <p>Find which campus is close by you</p>
+        <p role="complementary">Find which campus is close by you</p>
         <a href="#">Read more</a>
       </div>
     </div>
 
-      <div class="infocont2" id="guestspeaker">
+      <div class="infocont2" id="guestspeaker" role="presentation">
         <img src="./resources/images/information-guest-lecture.jpg" alt="Profile picture of Oliver Sack">
         <img id="guest" src="./resources/images/information-guest-lecture-mobile.jpg" alt="Profile picture of Oliver Sack">
-      <div class="infotextcont2">
-        <h3 id="ourguest">Our guest lecture</h3>
+      <div class="infotextcont2" role="presentation">
+        <h3 id="ourguest" aria-label="Guest lecturer coming soon to the academy">Our guest lecture</h3>
         <h3 id="specialguest">Special guest lecture</h3>
-        <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+        <p role="complementary">Join a keynote with Oliver Sack about music in medical treatment</p>
         <a href="#">Read more</a>
       </div>
     </div>
@@ -107,23 +109,23 @@
 
     <div class="courses">
       <h1>Start learning</h1>
-      <div class="row1">
+      <div class="row1" role="presentation">
 
-        <div class="coursecontainer left">
-          <div class="courseimagecontainer">
+        <div class="coursecontainer left" role="presentation">
+          <div class="courseimagecontainer" role="presentation">
             <img src="./resources/images/course-software.jpg" alt="Computers being used">
           </div>
           <div class="coursetitle">
             <h3><a href="#">Software engineering</a></h3>
           </div>
-          <div class="coursecontent">
+          <div class="coursecontent" role="presentation">
             <h5>COURSES</h5>
-            <p>Web Development, Mobile Development, iOT, APIs</p>
+            <p role="complementary">Web Development, Mobile Development, iOT, APIs</p>
           </div>
         </div>
 
-        <div class="coursecontainer centre">
-          <div class="courseimagecontainer">
+        <div class="coursecontainer centre" role="presentation">
+          <div class="courseimagecontainer" role="presentation">
             <img src="./resources/images/course-computer-art.jpg" alt="Smartphone held in hand">
           </div>
           <div class="coursetitle">
@@ -131,13 +133,13 @@
           </div>
           <div class="coursecontent">
             <h5>COURSES</h5>
-            <p>Imaging & Design, Web Design, Motion Graphins & Visual Effects,
+            <p role="complementary">Imaging & Design, Web Design, Motion Graphins & Visual Effects,
 						   Computer Animation</p>
           </div>
         </div>
 
-        <div class="coursecontainer right">
-          <div class="courseimagecontainer">
+        <div class="coursecontainer right" role="presentation">
+          <div class="courseimagecontainer" role="presentation">
             <img src="./resources/images/course-design.jpg" alt="Medium format camera held at waist height">
           </div>
           <div class="coursetitle">
@@ -145,14 +147,14 @@
           </div>
           <div class="coursecontent">
             <h5>COURSES</h5>
-            <p>User Experience Design, User Research, Visual Design</p>
+            <p role="complementary">User Experience Design, User Research, Visual Design</p>
         </div>
       </div>
     </div>
 
-      <div class="row2">
-        <div class="coursecontainer left">
-          <div class="courseimagecontainer">
+      <div class="row2" role="presentation">
+        <div class="coursecontainer left" role="presentation">
+          <div class="courseimagecontainer" role="presentation">
             <img src="./resources/images/course-data.jpg" alt="A laptop in use">
           </div>
           <div class="coursetitle">
@@ -160,12 +162,12 @@
           </div>
           <div class="coursecontent">
             <h5>COURSES</h5>
-            <p>Web Development, Mobile Development, iOT, APIs</p>
+            <p role="complementary">Web Development, Mobile Development, iOT, APIs</p>
         </div>
       </div>
 
-      <div class="coursecontainer centre">
-        <div class="courseimagecontainer">
+      <div class="coursecontainer centre" role="presentation">
+        <div class="courseimagecontainer" role="presentation">
           <img src="./resources/images/course-business.jpg" alt="Pieces on a chessboard">
         </div>
         <div class="coursetitle">
@@ -173,13 +175,13 @@
         </div>
         <div class="coursecontent">
           <h5>COURSES</h5>
-          <p>Imaging & Design, Web Design, Motion Graphins & Visual Effects,
+          <p role="complementary">Imaging & Design, Web Design, Motion Graphins & Visual Effects,
 						Computer Animation</p>
         </div>
       </div>
 
-      <div class="coursecontainer right">
-        <div class="courseimagecontainer">
+      <div class="coursecontainer right" role="presentation">
+        <div class="courseimagecontainer" role="presentation">
             <img src="./resources/images/course-marketing.jpg" alt="Looking at a smartwatch">
         </div>
         <div class="coursetitle">
@@ -187,7 +189,7 @@
         </div>
         <div class="coursecontent">
           <h5>COURSES</h5>
-          <p>User Experience Design, User Research, Visual Design</p>
+          <p role="complementary">User Experience Design, User Research, Visual Design</p>
         </div>
       </div>
     </div>
@@ -196,32 +198,32 @@
 <!-- Thesis section -->
 
 
-    <h1 id="thesishd">Thesis Exhibit</h1>
+    <h1 id="thesishd" aria-label="video of major thesis exhibit">Thesis Exhibit</h1>
 
-  <div class="thesis">
-    <div class="vidcol">
+  <div class="thesis" role="presentation">
+    <div class="vidcol" role="presentation">
       <video src="./resources/video/thesis.mp4" autoplay poster="posterimage.jpg">
       </video>
       <h2>Reimagine Urban</h2>
-      <p>"Curabitur vitae libero in ipsum porttitor consequat.  Aliquam et commodo
+      <p role="complementary">"Curabitur vitae libero in ipsum porttitor consequat.  Aliquam et commodo
 					lectus, nec consequat neque.  Sed non accusan urna.  Phasellus sed consequat
 					ex.  Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
     </div>
-    <div class="thesiscol">
-      <div class="fisma" id="fismadesign">
+    <div class="thesiscol" role="presentation">
+      <div class="fisma" id="fismadesign" role="presentation">
         <img src="./resources/images/thesis-fisma.jpg" alt="Smartphone centered on a designers desk">
-          <div class="fismatxt">
-            <div class="thesisheading">
+          <div class="fismatxt" role="presentation">
+            <div class="thesisheading" role="presentation">
               <h3><a href="#">Fisma: Design and Prototype</a></h3>
             </div>
             <p>Designer showcase of new prototype product</p>
           </div>
         </div>
 
-      <div class="fisma">
+      <div class="fisma" role="presentation">
         <img src="./resources/images/thesis-now-and-then.jpg" alt="Photos of the New York Skyline including Empire State building">
-          <div class="fismatxt">
-            <div class="thesisheading">
+          <div class="fismatxt" role="presentation">
+            <div class="thesisheading" role="presentation">
               <h3><a href="#">Now and then</a></h3>
             </div>
             <p>Research study about New York</p>
@@ -234,7 +236,7 @@
 
   <footer>
   		<span class="copyright">&copy 2016 Colmar Academy.  All rights reserved</span>
-      <div class="fontawesome">
+      <div class="fontawesome" role="presentation">
         <a href="http://www.facebook.com" target="_blank"><i class= "fa fa-facebook fa-lg"></i></a>
         <a href="http://www.twitter.com" target="_blank"><i class= "fa fa-twitter fa-lg"></i></a>
         <a href="http://www.instagram.com" target="_blank"<i class= "fa fa-instagram fa-lg"></i></a>
