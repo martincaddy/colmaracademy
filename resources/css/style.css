@@ -28,7 +28,7 @@ body {
   }
 }
 
-.head {
+header {
   display: flex;
   flex-direction: row;
   position: fixed;
